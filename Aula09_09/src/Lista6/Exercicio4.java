@@ -23,7 +23,7 @@ public class Exercicio4 {
 
             if (numero % 2 == 0) // se o mudulo da divisao de um numero der resto 0, ele é par.
             {
-                numero = Math.sqrt(numero);  / se o numero for par numero recebe raiz quadrada Math.sqrt(numero)*/
+                numero = Math.sqrt(numero);  // se o numero for par numero recebe raiz quadrada Math.sqrt(numero)*/
                 System.out.printf("este numero é par e sua raiz quadrada é igual a %.2f",numero);
             }
             else  // se ele for impar vai receber a potenciação == numero = Math.pow(numero, 2);
