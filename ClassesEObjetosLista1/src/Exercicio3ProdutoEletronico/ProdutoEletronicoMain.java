@@ -1,5 +1,8 @@
 package Exercicio3ProdutoEletronico;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class ProdutoEletronicoMain {
 
 	public static void main(String[] args) {
@@ -8,7 +11,26 @@ public class ProdutoEletronicoMain {
 		 * defina as instancias deste objeto e apresente as informações deste objeto no
 		 * console.
 		 */
+		
+		Locale.setDefault(Locale.US);
+		Scanner kb = new Scanner(System.in);
+		ProdutoEletronico produto1 = new ProdutoEletronico();
+		
 
+		System.out.println("Digite o tipo de aparelho eletrônico: ");
+		produto1.tipo= kb.next();
+		System.out.println("Digite a marca do aparelho eletrônico: ");
+		produto1.marca= kb.next();
+		System.out.println("Digite o modelo do aparelho eletrônico: ");
+		produto1.modelo= kb.next();
+		
+		//método
+		produto1.mostraTipo();
+		produto1.mostraMarca();
+		produto1.mostraModelo();
+		
+		
+		kb.close();
 	}
 
 }
