@@ -132,7 +132,6 @@ public class Exercicio4 {
 	                 {
 	                    
 	                        System.out.print("\n"+matriz1[linha][coluna]);
-	                        System.out.println("\n\n");
 	                        System.out.print(" | "+matriz2[linha][coluna]);
 	                        
 	                }
