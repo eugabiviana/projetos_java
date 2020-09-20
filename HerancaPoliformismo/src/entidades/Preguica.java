@@ -1,16 +1,19 @@
 package entidades;
 
-public class Preguiça extends Animal {
+public class Preguica extends Animal {
 
-    public Preguiça(String nome, int idade, String som, String ação) {
-        super(nome, idade, som, ação);
-        // TODO Auto-generated constructor stub
+    public Preguica(String nome, int idade) {
+        super(nome, idade);
     }
 
+    // metodos
+        public void  mostraSom() {
+            System.out.println("a preguiça esta bocejandoooooo");
+        }
 
-    public void  mostraSom() {
-        System.out.println("a preguiça esta bocejandoooooo");
-    }
+        public void mostraacao() {
+            System.out.println("a preguiça esta subindo na arvore");
+        }
 
 
 }

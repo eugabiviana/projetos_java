@@ -4,48 +4,28 @@ public class Animal {
 
     private String nome;
     private int idade;
-    private String som;
-    private String ação;
-    // constructor
-    public Animal(String nome,int idade,String som,String ação) {
-        this.nome = nome;
-        this.idade = idade;
-        this.som = som;
-        this.ação = ação;
-    }
-    // gets and sets
-    public String getNome() {
-        return nome;
-    }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+        // constructor
+        public Animal(String nome,int idade) {
+            this.nome = nome;
+            this.idade = idade;
+        }
 
-    public int getIdade() {
-        return idade;
-    }
+        // gets and sets
+        public String getNome() {
+            return nome;
+        }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
 
-    public String getSom() {
-        return som;
-    }
+        public int getIdade() {
+            return idade;
+        }
 
-    public void setSom(String som) {
-        this.som = som;
-    }
-
-    public String getAção() {
-        return ação;
-    }
-
-    public void setAção(String ação) {
-        this.ação = ação;
-    }
-
-
+        public void setIdade(int idade) {
+            this.idade = idade;
+        }
 
 }
