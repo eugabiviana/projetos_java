@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="sun.jvmstat.perfdata.monitor.CountedTimerTask"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="entidades.Aluno"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="Entidades.Pessoa"/>
+    <fullyQualifiedTypeName name="Entidades.Professor"/>
+    <fullyQualifiedTypeName name="Entidades.Aluno"/>
+    <fullyQualifiedTypeName name="entidades.Fornecedor"/>
+    <fullyQualifiedTypeName name="entidades.Empregado"/>
+    <fullyQualifiedTypeName name="entidades.Funcionarios"/>
+    <fullyQualifiedTypeName name="entidades.Terceiros"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
